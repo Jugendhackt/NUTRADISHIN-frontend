@@ -10,6 +10,69 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imgs/nutra-logo-small.png" height="200px" style="margin-top: -50px; margin-bottom: -55px;" class="d-inline-block align-top" alt="">
+          </a>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="babyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Baby
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="babyDropdown">
+                      <a class="dropdown-item" href="#">Health</a>
+                      <a class="dropdown-item" href="fm-infants-nutr.html">Nutrition</a>
+                      <a class="dropdown-item" href="#">Food habits</a>
+                  </div>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="youngDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Young
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="youngDropdown">
+                      <a class="dropdown-item" href="fm-teenage-health_problems.html">Health</a>
+                      <a class="dropdown-item" href="fm-teenage-nutr.html">Nutrition</a>
+                      <a class="dropdown-item" href="fm-teenage-food_lifestyle.html">Food habits</a>
+                  </div>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="middleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Middle
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="middleDropdown">
+                      <a class="dropdown-item" href="hp-middleage.html">Health</a>
+                      <a class="dropdown-item" href="fm-mid.html">Nutrition</a>
+                      <a class="dropdown-item" href="lifemidd.html">Food habits</a>
+                  </div>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="oldDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Old
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="oldDropdown">
+                      <a class="dropdown-item" href="hp-oldage.html">Health</a>
+                      <a class="dropdown-item" href="oldnutrient.html">Nutrition</a>
+                      <a class="dropdown-item" href="#">Food habits</a>
+                  </div>
+                </li>
+              </ul>
+              <a href="log-in.html" style="margin-right: 10px" class="btn btn-light" role="button">LOG IN</a>
+              <a href="sign-up.html" style="margin-right: 10px" class="btn btn-primary" role="button">SIGN UP</a>
+              <form class="form-inline my-2 my-lg-0" action="http://localhost:1337/get/food" method="GET">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="keyword">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
       <div class="container">
             <h1> NUTRIENTS FOR YOUNG FEMALES </h1>
             <h2> calories </h2>
