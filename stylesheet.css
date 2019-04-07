@@ -4,3 +4,9 @@
     flex-direction: column;
     height: 400px;
 }
+
+.center-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
